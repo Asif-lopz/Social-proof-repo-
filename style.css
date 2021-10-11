@@ -1,4 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image: url("img/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 300px 300px auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0 0 100px;
+}
+.head h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 38px;
+    font-weight: 700;
+}
+.head p {
+    width: 370px;
+    color: hsl(303, 10%, 53%);
+}
 
+.main1 {
+    background-image: url("img/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
 
 
 
